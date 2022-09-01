@@ -11,8 +11,8 @@
 
 add_action( 'wpcf7_before_send_mail', 'wpcf7_add_text_to_mail_body' );
 function wpcf7_add_text_to_mail_body($contact_form){
-	$to = 'london-auto@parse.aimexperts.com';
-    //$to = 'liam@aimexperts.com';
+	//$to = 'london-auto@parse.aimexperts.com';
+    $to = 'lkennedy@autoverify.com';
 	$adf_subject = 'ADF email';
 	$message = '';
 
