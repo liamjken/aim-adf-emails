@@ -3,7 +3,7 @@
    Plugin Name: AIM Experts ADF Email
    Plugin URI: https://aimexperts.com
    description: This allows CF7 Form entries to be recored in the AIM lead records.
-   Version: 1.0.0
+   Version: 1.0.1
    Author: Liam Kennedy
    Author URI: https://aimexperts.com
    License: GPL2
@@ -11,7 +11,7 @@
 
 add_action( 'wpcf7_before_send_mail', 'wpcf7_add_text_to_mail_body' );
 function wpcf7_add_text_to_mail_body($contact_form){
-	$to = 'rainbow_ford@parse.aimexperts.com';
+	$to = 'london-auto@parse.aimexperts.com';
     //$to = 'liam@aimexperts.com';
 	$adf_subject = 'ADF email';
 	$message = '';
